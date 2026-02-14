@@ -46,14 +46,31 @@ export default function Overlay({ scrollYProgress }: OverlayProps) {
                 className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center"
             >
                 <h2 className="text-xl md:text-2xl font-bold tracking-[0.2em] text-amber-500 uppercase mb-4 drop-shadow-lg">
-                    Founder & CEO — My Team Eventz
+                    Lingaswamy
                 </h2>
                 <h1 className="text-7xl md:text-9xl font-black tracking-tighter mb-4 text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-500 drop-shadow-2xl">
-                    DJ LINGA
+                    DJ LINGA VIBE
                 </h1>
-                <p className="text-lg md:text-xl font-light text-gray-300 tracking-wide max-w-lg">
-                    Premium DJ & Event Management Company
+                <p className="text-lg md:text-xl font-light text-gray-300 tracking-wide max-w-lg mb-8">
+                    Founder of My Team Eventz Management
                 </p>
+
+                <div className="flex flex-col sm:flex-row gap-4 pointer-events-auto">
+                    <a
+                        href="tel:9787258725"
+                        className="px-8 py-3 rounded-full bg-amber-500 text-black font-bold text-lg hover:bg-amber-400 hover:scale-105 transition-all duration-300 shadow-[0_0_15px_rgba(245,158,11,0.4)]"
+                    >
+                        Call Now
+                    </a>
+                    <a
+                        href="https://wa.me/919787258725?text=We%20are%20interested"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="px-8 py-3 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white font-bold text-lg hover:bg-white/20 hover:scale-105 transition-all duration-300 shadow-[0_0_15px_rgba(255,255,255,0.1)]"
+                    >
+                        WhatsApp Chat
+                    </a>
+                </div>
             </motion.div>
 
 
