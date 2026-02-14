@@ -46,7 +46,7 @@ export default function Overlay({ scrollYProgress }: OverlayProps) {
                 className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center"
             >
                 <h2 className="text-xl md:text-2xl font-bold tracking-[0.2em] text-amber-500 uppercase mb-4 drop-shadow-lg">
-                    Lingaswamy
+                    LINGASWAMY IS KNOWN AS
                 </h2>
                 <h1 className="text-7xl md:text-9xl font-black tracking-tighter mb-4 text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-500 drop-shadow-2xl">
                     DJ LINGA VIBE
