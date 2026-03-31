@@ -1,5 +1,6 @@
 import ScrollyCanvas from "@/components/ScrollyCanvas";
 import Services from "@/components/Services";
+import Internships from "@/components/Internships";
 import Contact from "@/components/Contact";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <main className="min-h-screen bg-[#121212] flex flex-col">
       <ScrollyCanvas />
       <Services />
+      <Internships />
       <Contact />
 
       {/* Simple Footer */}
